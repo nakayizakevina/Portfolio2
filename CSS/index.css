@@ -110,7 +110,7 @@ height:100vh;
     color: white;
  }
 
- .contact  li nth-last-child a:hover{
+ .contact  ul:nth-last-child a:hover{
     color: aqua;
     cursor: pointer;
  }

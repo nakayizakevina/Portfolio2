@@ -70,7 +70,7 @@ hr{
 img{
      
     /* text-align: center; */
-    width: 50%;
+    width: 70%;
     height: 50%;
 }
 .content{
@@ -81,7 +81,10 @@ img{
     /* border: 2px solid red; */
 }
 
-
+.small-content{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+}
 
 .location{
     background-color: rgb(229, 228, 226);

@@ -8,23 +8,31 @@ body{
 .container{
     height: 100vh;
     width: 100%;
-    background-image: url(../img/20220424_162355.jpg);
+    background-color:rgb(204,204,204);
+    /* background-image: url(../img/20220424_162355.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    /* padding-top: 45px; */
     padding-left:8%;
     padding-right: 8%;
+    /* background-color: aquamarine; */
+}
+
+svg{
+    width: 4rem;
+    height: 4rem;
 }
 
 .log{
     color: white;
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 20px;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -50,31 +58,43 @@ nav ul li a{
 nav ul li a:hover{
     color:rgb(1, 1, 37);
 }
-
+img{
+    border: 2px solid yellow;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
 .content{
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
+    left: 8%; */
+    /* transform: translateY(-50%); */
+    /* padding: 36px; */
+    border: 2px solid red;
+}
+
+.location{
+    /* border: 2px solid greenyellow; */
+    /* align-items: center; */
+    /* padding: 4px; */
+    background-color: rgb(229, 228, 226);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+    width: 223px;
+    height: 41px;
 }
 
 h1{
-    color: white;
+    text-align: center;
+    color:black;
     margin: 20px 0px 20px;
-    font-size: 30px;
+    font-size: 40px;
+    border: 2px solid yellow;
 }
 
-h3{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 40px;
-}
 
-h4{
-    color: rgb(3, 3, 53);
-    letter-spacing: 2px;
-    font-size: 20px;
-}
 
 .about{
 /* background-image: url(../img/picture2.jpg); */
@@ -114,3 +134,29 @@ height:100vh;
     color: aqua;
     cursor: pointer;
  }
+
+ /* @media screen,(max-width:1024px) {
+   ul{
+    display: block;
+   }
+
+   img{
+    border: 2px solid yellow;
+    text-align: center;
+    width: 20%;
+    height: 20%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.small-content{
+  display: flex;
+  flex-direction:row-reverse;
+}
+
+
+ };
+     */

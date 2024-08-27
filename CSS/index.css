@@ -1,16 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body{
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
     background-color: rgb(204, 204, 204);
+    
 }
 
 .container{
     height: 100vh;
     width: 100%;
     background-color:rgb(204,204,204);
-    
 }
 
 nav{
@@ -38,12 +41,6 @@ ul{
     cursor: pointer;
 }
 
-
-
-/* hr{
-    width: 260px;
-    border-color: rgb(175, 175, 175);
-} */
 
 hr{
     width: 90%;
@@ -101,15 +98,89 @@ h1{
 
 
 .about{
-background-color: rgb(3, 3, 53);
+/* background-color: rgb(3, 3, 53); */
+/* background-color:black; */
+/* border: 2px solid  white; */
 color: white;
 width: 100%;
 height:100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+/* justify-content: center; 
+align-items: center;  */
+
 /* padding-top: 45px; */
 /* padding-left:8%; */
 /* padding-right: 8%; */
 /* background-size: cover; */
 /* background-position: center; */
+}
+
+.mypicture{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    /* border: 2px solid red; */
+}
+
+.shadow{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(229,228,226);
+    position: absolute;
+}
+
+.overlap{
+    
+    width: 250px;
+    height:400px;
+    z-index: 2;
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+
+.aboutme{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.message{
+    color: black;
+}
+
+.button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    /* padding-top: 4px; */
+    align-content: center;
+}
+
+button{
+    background-color: rgb(229, 228, 226);
+    border: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    padding-top: 4px;
+    align-content: center;
+
+    /* width: 100%; */
+    width: 246px;
+    height: 41px;
+   
+}
+
+
+.aboutme{
+    font-family: Inter;
 }
 
 .skills{

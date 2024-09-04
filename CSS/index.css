@@ -181,14 +181,70 @@ button{
   } */
 
  .contact{
-    background-color: rgb(3, 3, 53);
+    /* background-color: rgb(3, 3, 53); */
     color: white;
+    border: 2px solid red;
+  
  }
 
- .contact  ul:nth-last-child a:hover{
+ .vistors-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 2px solid green;
+ }
+
+ .vistors-information{
+    background-color:white;
+    border: none;
+    height: 41px;
+    
+ }
+
+ .send-btn{
+    background-color: rgb(229, 228, 226);
+    border: none;
+    height: 41px;
+    /* width: 351px; */
+ }
+
+ #message{
+    border: none;
+   
+ }
+ 
+ 
+ 
+ .my-contact{
+    /* display: flex; */
+    /* flex-direction: column; */
+    border:2px solid yellow;
+ }
+
+ .social-media{
+    display:flex;
+    flex-direction:row;
+    color: black;
+    /* padding: 4px; */
+    border: 2px solid green;
+ }
+
+ .social-handal{
+    /* padding: -20px; */
+    border: 2px solid;
+ }
+
+ svg{
+    width:25px;
+    height:25px;
+ }
+
+ /* .contact  ul:nth-last-child a:hover{
     color: aqua;
     cursor: pointer;
- }
+ } */
 
    @media (min-width:1024px) {
 
@@ -262,11 +318,8 @@ button{
 .about{
     color: white;
     width: 100%;
-    /* height:100vh; */
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly;
-    ga */
     border: 3px solid black;
     }
     

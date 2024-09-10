@@ -146,7 +146,7 @@ margin-top: 3%;
     align-content: center;
 }
 
-button{
+.Lets-Connect{
     background-color: rgb(229, 228, 226);
     border: none;
     display: flex;
@@ -165,7 +165,7 @@ button{
 }
 
 .skills{
-    background-color: rgb(3, 3, 53);
+    /* background-color: rgb(3, 3, 53); */
     color: white;
     font-size: 20px;
 }
@@ -174,15 +174,12 @@ button{
     font-family: 'Josefin Sans', sans-serif;
  }
 
- /* ul li{
-    list-style-type: none; 
-    padding: 10px 25px;
- 
-  } */
 
  .contact{
-    /* background-color: rgb(3, 3, 53); */
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     border: 2px solid red;
   
  }
@@ -207,7 +204,7 @@ button{
     background-color: rgb(229, 228, 226);
     border: none;
     height: 41px;
-    /* width: 351px; */
+   
  }
 
  #message{
@@ -218,8 +215,7 @@ button{
  
  
  .my-contact{
-    /* display: flex; */
-    /* flex-direction: column; */
+    
     border:2px solid yellow;
  }
 
@@ -227,13 +223,12 @@ button{
     display:flex;
     flex-direction:row;
     color: black;
-    /* padding: 4px; */
     border: 2px solid green;
  }
 
  .social-handal{
-    /* padding: -20px; */
     border: 2px solid;
+    font-size: large;
  }
 
  svg{
@@ -250,7 +245,7 @@ button{
 
 
     ul {
-        display: block; /* or inline-block, flex, grid, etc. */
+        display: block;
     }
 
     nav h1:hover{
@@ -282,7 +277,6 @@ button{
    }
 
    img{
-    /* border: 2px solid yellow; */
     text-align: center;
     width: 40%;
     height: 40%;
@@ -293,7 +287,6 @@ button{
     flex-direction: row;
     justify-content: center; 
     align-items: center;  
-    /* border: 2px solid red; */
     padding: 20px;
 }
 
@@ -304,13 +297,12 @@ button{
     flex-direction:row-reverse;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid green; */
+    
 }
 
 .location{
     width: 50%;
     height: 41px;
-    /* border: 2px solid skyblue; */
 }
 
 

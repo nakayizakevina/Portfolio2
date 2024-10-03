@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-   
     <link rel="stylesheet" href="CSS/index.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap" rel="stylesheet">   -->
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
    <div class="container">
@@ -18,7 +24,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <svg xmlns="http://www.w3.org/2000/svg" 
+      <svg class="menu" xmlns="http://www.w3.org/2000/svg" 
        viewBox="0 0 512 512"><path fill="none" 
        stroke="black" stroke-linecap="round" 
        stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"/>
@@ -27,56 +33,58 @@
  <hr>
  <div class="content">
       <div class="small-content">
-        <div class="image">
-          <img src="./img/FAP_4191.jpg" alt="my picture">      
+        <div class="homeImg">
+          <img  id="img" src="./img/FAP_4191.jpg" alt="my picture">      
         </div>
-       <p class="location">Kampala-Uganda</p> 
+        
       </div>
-     
-    <h1>frontend <br> Developer </h1>
-    
-  </div>
+      <div class="greetings">
+        <h1>Hello</h1>
+        <p>I'm Kevina</p>
+        <p>a frontend developer & UI designer</p>
+        <p class="location">Kampala-Uganda</p>
+
+      </div>
+    </div>
 
  </div>
  <!--About--> 
- <section class="about" id="about"> 
-  <div class="mypicture">
-    <div class="shadow">
-      
+  <section class="about" id="about"> 
+   
+    <div class="aboutmeImg">
+      <img id="aboutmeImg" src="./img/Snapchat-1864543374.jpg" alt="AboutmeImage">
     </div>
-    <div class="overlap">
-      <img src="./img/FAP_4191.jpg" alt="my picture">
+    <div class="message">
+      <p>
+        <Span class="Introduction">I'm Kevina a frontend developer and UI designer</Span>
+        with a keen eye for design and development. 
+        With extensive experience in HTML, CSS, JavaScript,
+        TailwindCSS, GitHub and tools like Figmam, I bring concepts
+        to life, from wire frames to fully deployed projects. 
+        I thrive on promblem-solving and am constantly looking for 
+        ways to improve my craft.
+      </p>
+      <div class="button">
+        <button class="Lets-Connect">Let's Connect</button>   
+      </div>
     </div>
-  </div>
-  <div class="aboutme">
-    <p class="message">
-      I'm Kevina with a keen eye for design and development. <br> 
-      With extensive experience in HTML, CSS, JavaScript,<br>
-      TailwindCSS, GitHub and tools like Figmam, I bring concepts <br>
-      to life, from wire frames to fully deployed projects. <br>
-      I thrive on promblem-solving and am constantly looking for <br>
-      ways to improve my craft.
-    </p>
-    <div class="button">
-      <button class="Lets-Connect">Let's Connect</button>   
-    </div>
-    
-  </div>
-</section>
+  </section>
 
 <!--contact-->
- <section class="contact" id="contact">
+<section class="contact" id="contact">
 <div class="vistors-info">
   <p class="log">Let's get in touch</p>
-  <input class="vistors-information" type="text" placeholder="Name">
-  <input class="vistors-information" type="text" placeholder="Email">
-  
+  <div class="contactmessage">
+    <input class="vistors-information" type="text" placeholder="Name">
+    <input class="vistors-information" type="text" placeholder="Email">
+  </div>
   <textarea name="message" id="message" cols="20" rows="10" placeholder="Message"></textarea>
-  
-    <button class="send-btn">Send Message</button>   
-
-</div> 
-<div class="my-contact">
+  <div class="messagebtn">
+    <button class="send-btn">Send Message</button> 
+  </div>
+     
+  </div> 
+  <div class="my-contact">
   <div class="social-media">
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
@@ -115,5 +123,6 @@
     </a>
   </div>
 </div> 
+</section>
 </body>
 </html>

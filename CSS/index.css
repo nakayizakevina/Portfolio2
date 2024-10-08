@@ -414,6 +414,7 @@ h2 {
     .aboutmeImg {
         width: 40%;
         height: 100%;
+        margin-left: 30px;
     }
 
     #aboutmeImg {
@@ -442,6 +443,7 @@ h2 {
     .contactmessage {
         display: flex;
         flex-direction: row;
+       
     }
 
     input {
@@ -500,7 +502,9 @@ h2 {
         color: white;
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 
     .vistors-info {
@@ -510,6 +514,8 @@ h2 {
         flex-direction: column;
         padding-left: 4px;
         padding-right: 4px;
+        margin-left:20px;
+        
     }
 
 
@@ -518,10 +524,9 @@ h2 {
         height: fit-content;
         display: flex; 
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 3rem;
-
-        /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;  */
 
     }
 

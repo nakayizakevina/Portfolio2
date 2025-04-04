@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme{
+    --font-poppins:Poppins, sans-serif;
+    --font-tangerine: Tangerine, cursive;
+}
+
+@theme {
+    --color-Cream: #FEFAE0;
+    --color-Pink: #F7418F;
+  
+  }
+
+ 
